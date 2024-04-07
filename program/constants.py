@@ -1,8 +1,5 @@
-from dydx3.constants import API_HOST_SEPOLIA,API_HOST_MAINNET
+from dydx3.constants import API_HOST_SEPOLIA, API_HOST_MAINNET
 from decouple import config
-
-
-# API_HOST_SEPOLIA = API_HOST_GOERLI
 
 # !!!! SELECT MODE !!!!
 MODE = "DEVELOPMENT"
@@ -12,6 +9,9 @@ ABORT_ALL_POSITIONS = True
 
 # Find Cointegrated Pairs
 FIND_COINTEGRATED = True
+
+# Manage Exits
+MANAGE_EXITS = True
 
 # Place Trades
 PLACE_TRADES = True
